@@ -1,0 +1,149 @@
+.root{
+    -fx-background-color: #fff2d7;
+    -fx-font-size: 12pt;
+    -fx-font-family: Minecraft;
+}
+
+.label {
+    -fx-text-fill: #8a1010;
+    -fx-font-weight: bold;
+    -fx-font-size: 11pt;
+    -fx-text-alignment: center;
+}
+
+.popup {
+    -fx-background-color: #fdedcb;
+    -fx-border-width: 1.5;
+    -fx-border-color: #8a1010;
+    -fx-border-radius: 3;
+    -fx-text-fill: #8a1010;
+    -fx-background-radius: 3;
+    -fx-text-alignment: center;
+}
+
+.text-field {
+    -fx-background-color: #ffffff;
+    -fx-border-width: 1.5;
+    -fx-background-radius: 3;
+    -fx-border-color: #8a1010;
+    -fx-border-radius: 3;
+}
+
+.text-field:focused {
+    -fx-border-color: #db1919;
+    -fx-border-radius: 3;
+}
+
+.text-area {
+    -fx-background-color: #ffffff;
+    -fx-border-width: 1.5;
+    -fx-background-radius: 3;
+    -fx-border-color: #8a1010;
+    -fx-border-radius: 3;
+}
+
+.text-area .scroll-bar:vertical {
+    -fx-background-color: #ffffff;
+    -fx-background-radius: 3;
+}
+
+.text-area .scroll-bar:vertical .increment-button,
+.text-area .scroll-bar:vertical .decrement-button {
+    -fx-opacity: 0;         /* Make the arrow buttons invisible */
+    -fx-background-color: transparent; /* Ensure no background */
+    -fx-border-color: transparent;    /* Remove any borders */
+}
+
+.text-area .scroll-bar:vertical .thumb {
+    -fx-background-color: #8a1010;  /* Blue color for the thumb */
+    -fx-background-radius: 3;     /* Rounded thumb */
+}
+
+.label-winner {
+    -fx-text-fill: #db1919;
+    -fx-font-weight: bold;
+    -fx-font-size: 11pt;
+    -fx-text-alignment: center;
+}
+
+.button{
+    -fx-background-color: #ffffff;
+    -fx-border-width: 1.5;
+    -fx-border-color: #8a1010;
+    -fx-border-radius: 3;
+    -fx-text-fill: #8a1010;
+    -fx-background-radius: 3;
+    -fx-text-alignment: center;
+}
+
+.button-click{
+    -fx-background-color: #e2d7d7;
+    -fx-border-width: 1.5;
+    -fx-border-color: #640404;
+    -fx-border-radius: 3;
+    -fx-text-fill: #640404;
+    -fx-background-radius: 3;
+    -fx-text-alignment: center;
+}
+
+.button-taken{
+    -fx-background-color: #f4e0a4;
+    -fx-border-width: 1.5;
+    -fx-border-color: #f4e0a4;
+    -fx-border-radius: 3;
+    -fx-text-fill: #f4e0a4;
+    -fx-background-radius: 3;
+    -fx-text-alignment: center;
+}
+
+.button-unavailable-taken{
+    -fx-background-color: #e9d69f;
+    -fx-border-width: 1.5;
+    -fx-border-color: #e9d69f;
+    -fx-border-radius: 3;
+    -fx-text-fill: #e9d69f;
+    -fx-background-radius: 3;
+    -fx-text-alignment: center;
+}
+
+.dice{
+    -fx-background-color: #ffffff;
+    -fx-border-width: 1.5;
+    -fx-border-color: #8a1010;
+    -fx-border-radius: 3;
+    -fx-text-fill: #8a1010;
+    -fx-background-radius: 3;
+    -fx-text-alignment: center;
+}
+
+.title-1 {
+    -fx-text-fill: #8a1010;
+    -fx-font-weight: bold;
+    -fx-font-size: 20pt;
+    -fx-text-alignment: center;
+}
+
+.title-2 {
+    -fx-text-fill: #d41b1b;
+    -fx-font-weight: bold;
+    -fx-font-size: 20pt;
+    -fx-text-alignment: center;
+}
+
+.winner-1 {
+    -fx-text-fill: #8a1010;
+    -fx-font-weight: bold;
+    -fx-font-size: 15pt;
+    -fx-text-alignment: center;
+}
+
+.winner-2 {
+    -fx-text-fill: #d41b1b;
+    -fx-font-weight: bold;
+    -fx-font-size: 15pt;
+    -fx-text-alignment: center;
+}
+
+@font-face {
+    font-family: Minecraft;
+}
